@@ -1,0 +1,523 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+/* Mobile Devices - less than 640px */
+@media only screen and (max-width: 639px) {
+    
+    header{
+        display: flex;
+        justify-content: space-between;
+        width: 640px;
+        height: 80px;
+        margin-bottom: 10px;
+        background-color: #006AC3;
+    }
+
+   .logo > img{
+        width: 60px;
+        height: 90px;
+        margin: 30px 0px 5px 35px;
+   }
+    nav{
+        font-size: 1.15rem;
+        margin: 30px 40px 20px 0px;
+    }
+
+    nav > a{
+        color: white;
+        text-decoration: none;
+        margin: 30px 20px 20px 0px;
+    }
+
+    .banner{
+        width: 640px;
+        height: 660px;
+        background-color: #0f558f;
+        display: block;
+    }
+    .banner img{
+        margin-left: 130px;
+    }
+    button{
+        width: 180px;
+        height: 50px;
+        margin-top: 40px;
+        font-size: 1.15rem;
+        color: #006AC3;
+        border: 1px solid black;
+        justify-content: center;
+    }
+    .description{
+        font-size: 1rem;
+        justify-content: center;
+        color: white;
+        margin: 20px 0px 0px 30px;
+    }
+    main{
+        display: block;
+    }
+   .c1 img{
+        width: 60px;
+        height: 40px;
+    }
+   .c2 img{
+        width: 60px;
+        height: 40px;
+    }
+   .c3 img{
+        width: 60px;
+        height: 40px;
+    }
+    .c1, .c2, .c3{
+        width: 619px;
+        height: 550px;
+        background-color: whitesmoke;
+        margin:20px 0px 10px 10px;
+        border: 2px solid black;
+    }
+   .c1 h1{
+        font-size: 2.5rem;
+        text-align: center;
+        margin-top: 30px;
+        
+   }
+   .c1  h3{
+        font-size: 2rem;
+        text-align: center;
+        margin-top: 20px;
+   }
+   .c1 ul {
+        margin: 60px 0px 0px 30px;
+        font-size: 1.75rem;
+   }
+   .c1 ul li{
+    margin-bottom: 40px;
+    list-style: none;
+   }
+   .c2 h1{
+        font-size: 2.5rem;
+        text-align: center;
+        margin-top: 30px;
+        
+   }
+   .c2  h3{
+        font-size: 2rem;
+        text-align: center;
+        margin-top: 20px;
+   }
+   .c2 ul {
+        margin: 60px 0px 0px 30px;
+        font-size: 1.75rem;
+   }
+   .c2 ul li{
+    margin-bottom: 40px;
+    list-style-type: none;
+   }
+   .c3 h1{
+        font-size: 2.5rem;
+        text-align: center;
+        margin-top: 30px;
+        
+   }
+   .c3  h3{
+        font-size: 2rem;
+        text-align: center;
+        margin-top: 20px;
+   }
+   .c3 ul {
+        margin: 60px 0px 0px 30px;
+        font-size: 1.75rem;
+   }
+   .c3 ul li{
+    margin-bottom: 40px;
+    list-style: none;
+   }
+    footer{
+        background-color: #006AC3;
+        font-size: 1.75rem;
+        justify-content: center;
+        color: white;
+    }
+    .footer{
+        display: flex;
+    }
+
+   li {
+        margin-bottom: 10px;
+        list-style: none;
+    }
+    li > a{
+        text-decoration: none;
+        color: white;
+    }
+    .location > a{
+        text-decoration: none;
+        color: white;
+    }
+    .location{
+        margin: 30px 10px 0px 0px;
+
+    }
+    .footer-links{
+        margin: 30px 40px 0px 20px;
+    }
+
+    .footer-social{
+        margin: 30px 40px 0px 20px;
+    }
+    footer img{
+        width: 20px;
+        height: 20px;
+        margin-right: 15px;
+    }
+    footer > p{
+        text-align: center;
+        padding: 10px;
+    }
+
+    
+}
+
+/* Tablets - between 640px and 1024px */
+@media only screen and (min-width: 640px) and (max-width: 1024px) {
+    header{
+        display: flex;
+        justify-content: space-between;
+        width: 1024px;
+        height: 80px;
+        margin-bottom: 10px;
+        background-color: #006AC3;
+    }
+
+   .logo > img{
+        width: 80px;
+        height: 110px;
+        margin: 30px 0px 5px 35px;
+   }
+    nav{
+        font-size: 1.25rem;
+        margin: 30px 40px 20px 0px;
+    }
+
+    nav > a{
+        color: white;
+        text-decoration: none;
+        margin: 30px 40px 20px 0px;
+    }
+
+    .banner{
+        width: 1024px;
+        height: 440px;
+        background-color: #0f558f;
+        display: flex;
+    }
+    button{
+        width: 210px;
+        height: 50px;
+        margin-top: 40px;
+        font-size: 1.25rem;
+        color: #006AC3;
+        border: 1px solid black;
+    
+    }
+    .description{
+        font-size: 1.25rem;
+        color: white;
+        margin: 40px 0px 0px 30px;
+    }
+    main{
+        display: flex;
+    }
+   .c1 img{
+        width: 60px;
+        height: 40px;
+    }
+   .c2 img{
+        width: 60px;
+        height: 40px;
+    }
+   .c3 img{
+        width: 60px;
+        height: 40px;
+    }
+    .c1, .c2, .c3{
+        width: 320px;
+        height: 550px;
+        background-color: whitesmoke;
+        margin:20px 0px 10px 15px;
+        border: 2px solid black;
+    }
+   .c1 h1{
+        font-size: 2rem;
+        text-align: center;
+        margin-top: 30px;
+        
+   }
+   .c1  h3{
+        font-size: 1.25rem;
+        text-align: center;
+        margin-top: 20px;
+   }
+   .c1 ul {
+        margin: 60px 0px 0px 30px;
+        font-size: 1.12rem;
+   }
+   .c1 ul li{
+    margin-bottom: 40px;
+    list-style: none;
+   }
+   .c2 h1{
+        font-size: 2rem;
+        text-align: center;
+        margin-top: 30px;
+        
+   }
+   .c2  h3{
+        font-size: 1.25rem;
+        text-align: center;
+        margin-top: 20px;
+   }
+   .c2 ul {
+        margin: 60px 0px 0px 30px;
+        font-size: 1.12rem;
+   }
+   .c2 ul li{
+    margin-bottom: 40px;
+    list-style-type: none;
+   }
+   .c3 h1{
+        font-size: 2rem;
+        text-align: center;
+        margin-top: 30px;
+        
+   }
+   .c3  h3{
+        font-size: 1.25rem;
+        text-align: center;
+        margin-top: 20px;
+   }
+   .c3 ul {
+        margin: 60px 0px 0px 30px;
+        font-size: 1.15rem;
+   }
+   .c3 ul li{
+    margin-bottom: 40px;
+    list-style: none;
+   }
+    footer{
+        background-color: #006AC3;
+        width: 1035px;
+        font-size: 1.5rem;
+        justify-content: center;
+        color: white;
+    }
+    .footer{
+        display: flex;
+    }
+
+   li {
+        margin-bottom: 10px;
+        list-style: none;
+    }
+    li > a{
+        text-decoration: none;
+        color: white;
+    }
+    .location > a{
+        text-decoration: none;
+        color: white;
+    }
+    .location{
+        margin: 40px 50px 0px 150px;
+
+    }
+    .footer-links{
+        margin: 70px 10px 0px 60px;
+    }
+
+    .footer-social{
+        margin: 70px 50px 0px 200px;
+    }
+    footer img{
+        width: 20px;
+        height: 20px;
+        margin-right: 15px;
+    }
+    footer > p{
+        text-align: center;
+        padding: 10px;
+    }
+
+}
+
+/* Desktops - over 1024px */
+@media only screen and (min-width: 1025px) {
+    header{
+        display: flex;
+        justify-content: space-between;
+        width: 1280px;
+        height: 80px;
+        margin-bottom: 10px;
+        background-color: #006AC3;
+    }
+
+   .logo > img{
+        width: 80px;
+        height: 110px;
+        margin: 30px 0px 5px 35px;
+   }
+    nav{
+        font-size: 1.25rem;
+        margin: 30px 40px 20px 0px;
+    }
+
+    nav > a{
+        color: white;
+        text-decoration: none;
+        margin: 30px 40px 20px 0px;
+    }
+
+    .banner{
+        width: 1280px;
+        height: 440px;
+        background-color: #0f558f;
+        display: flex;
+    }
+    button{
+        width: 210px;
+        height: 50px;
+        margin-top: 40px;
+        font-size: 1.25rem;
+        color: #006AC3;
+        border: 1px solid black;
+    
+    }
+    .description{
+        font-size: 1.75rem;
+        color: white;
+        margin: 40px 0px 0px 30px;
+    }
+    main{
+        display: flex;
+    }
+   .c1 img{
+        width: 60px;
+        height: 40px;
+    }
+   .c2 img{
+        width: 60px;
+        height: 40px;
+    }
+   .c3 img{
+        width: 60px;
+        height: 40px;
+    }
+    .c1, .c2, .c3{
+        width: 400px;
+        height: 550px;
+        background-color: whitesmoke;
+        margin:20px 0px 15px 20px;
+        border: 2px solid black;
+    }
+   .c1 h1{
+        font-size: 2rem;
+        text-align: center;
+        margin-top: 30px;
+        
+   }
+   .c1  h3{
+        font-size: 1.75rem;
+        text-align: center;
+        margin-top: 20px;
+   }
+   .c1 ul {
+        margin: 60px 0px 0px 30px;
+        font-size: 1.25rem;
+   }
+   .c1 ul li{
+    margin-bottom: 40px;
+    list-style: none;
+   }
+   .c2 h1{
+        font-size: 2rem;
+        text-align: center;
+        margin-top: 30px;
+        
+   }
+   .c2  h3{
+        font-size: 1.75rem;
+        text-align: center;
+        margin-top: 20px;
+   }
+   .c2 ul {
+        margin: 60px 0px 0px 30px;
+        font-size: 1.25rem;
+   }
+   .c2 ul li{
+    margin-bottom: 40px;
+    list-style-type: none;
+   }
+   .c3 h1{
+        font-size: 2rem;
+        text-align: center;
+        margin-top: 30px;
+        
+   }
+   .c3  h3{
+        font-size: 1.75rem;
+        text-align: center;
+        margin-top: 20px;
+   }
+   .c3 ul {
+        margin: 60px 0px 0px 30px;
+        font-size: 1.25rem;
+   }
+   .c3 ul li{
+    margin-bottom: 40px;
+    list-style: none;
+   }
+    footer{
+        background-color: #006AC3;
+        font-size: 1.5rem;
+        justify-content: center;
+        color: white;
+    }
+    .footer{
+        display: flex;
+    }
+
+   li {
+        margin-bottom: 10px;
+        list-style: none;
+    }
+    li > a{
+        text-decoration: none;
+        color: white;
+    }
+    .location > a{
+        text-decoration: none;
+        color: white;
+    }
+    .location{
+        margin: 40px 30px 0px 300px;
+
+    }
+    .footer-links{
+        margin: 70px 30px 0px 90px;
+    }
+
+    .footer-social{
+        margin: 70px 30px 0px 250px;
+    }
+    footer img{
+        width: 20px;
+        height: 20px;
+        margin-right: 15px;
+    }
+    footer > p{
+        text-align: center;
+        padding: 10px;
+    }
+}
